@@ -2,8 +2,8 @@
 # NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED.
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-FROM deinchristian/rpi-selenium-node-firefox:3.14.0
-LABEL authors=DeinChristian
+FROM jvoight0250/rpi-selenium-node-firefox:3.14.0
+LABEL authors=jvoight0250
 
 USER seluser
 

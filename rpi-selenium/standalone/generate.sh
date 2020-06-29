@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# docker push deinchristian/rpi-selenium-node-chrome
-# Example Commandline:    ./generate.sh StandaloneChrome rpi-selenium-node-chrome Chrome 3.14.0 deinchristian DeinChristian
+# docker push jvoight0250/rpi-selenium-node-chrome
+# Example Commandline:    ./generate.sh StandaloneChrome rpi-selenium-node-chrome Chrome 3.14.0 jvoight0250 jvoight0250
 
 FOLDER=../$1  # StandaloneChrome
 BASE=$2  # rpi-selenium-node-chrome
 BROWSER=$3  # Chrome
 VERSION=$4  # 3.14.0
-NAMESPACE=$5  # deinchristian
-AUTHORS=$6  # DeinChristian
+NAMESPACE=$5  # jvoight0250
+AUTHORS=$6  # jvoight0250
 
 echo "# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" > $FOLDER/Dockerfile
 echo "# NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED." >> $FOLDER/Dockerfile
